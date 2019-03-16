@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.AsyncRestTemplate;
 import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.PostConstruct;
-
 /**
  * Created by edas on 2017/11/7.
  */
@@ -25,10 +23,7 @@ public class Controller {
     private AsyncRestTemplate asyncRestTemplate;
     @Autowired
     private  EchoService echoService;
-    @PostConstruct
-    public void init(){
-        System.out.println("init");
-    }
+
     @RequestMapping(value = "/echo-rest/{str}", method = RequestMethod.GET, produces = "application/json")
     public String rest(@PathVariable String str) {
         return restTemplate.getForObject("http://service-provider/echo/" + str, String.class);
