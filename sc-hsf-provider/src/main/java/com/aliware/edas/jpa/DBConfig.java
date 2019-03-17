@@ -10,7 +10,7 @@ import org.springframework.core.env.Environment;
 import javax.annotation.PostConstruct;
 import java.beans.PropertyVetoException;
 
-@Configuration
+//@Configuration
 @Slf4j
 public class DBConfig {
     @Autowired
