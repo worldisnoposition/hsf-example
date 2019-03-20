@@ -34,6 +34,12 @@ public class OrderController {
     }
     @RequestMapping("/create")
     public Object add() {
+        OrderEntity orderEntityByUserId = orderRepository.findByUserId(1L);
+        OrderEntity orderEntityByUserIdAndOrderId = orderRepository.findByUserIdAndOrderId(1L,1L);
+        OrderEntity o3 = orderRepository.findByUserIdAndOrderByOrderIdDesc(1L,1L);
+//        OrderEntity o4 = orderRepository.myOwnHql(1L,1L);
+//        OrderEntity o5 = orderRepository.myOwnSql(1L);
+
         List<OrderEntity> list = new ArrayList();
         for (int i = 0; i < 10; i++) {
             OrderEntity order = new OrderEntity();
