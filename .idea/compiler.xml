@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dynamic-datasource-mybatis" />
         <module name="hsf-example" />
         <module name="sc-hsf-consumer" />
         <module name="sc-hsf-provider" />

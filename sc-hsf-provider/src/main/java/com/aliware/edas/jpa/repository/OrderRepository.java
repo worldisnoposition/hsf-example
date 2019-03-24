@@ -20,10 +20,12 @@ public interface OrderRepository extends CrudRepository<OrderEntity, Long> {
 //    @Query("select orderentit0_.order_id as order_id1_1_, orderentit0_.user_id from t_order orderentit0_ where orderentit0_.user_id=? and orderentit0_.order_id=?")
 //    OrderEntity myOwnHql(Long userId, Long orderId);
 
-//    @Query(value = "select order_id as orderId,user_id as userId from t_order_0 where order_id = ?1", nativeQuery = true)
-//    OrderEntity myOwnSql(Long orderId);
+    @Query(value = "select order_id as orderId,user_id as userId from t_order_1 where order_id = ?1", nativeQuery = true)
+    OrderEntity myOwnSql(Long orderId);
 
-    OrderEntity findByUserIdAndOrderByOrderIdDesc(Long userId,Long orderId);
+//    OrderEntity findByUserIdAndOrderByOrderIdDesc(Long userId,Long orderId);
+
+//    OrderEntity findByUserIdOrOrderIdAndOrderByOrderIdDesc(long userId, long orderId);
 
 //    OrderEntity findByUserIdAndOrderIdOrderByDesc(Long userId, Long OrderId);
 }

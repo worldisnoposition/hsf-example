@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.dynamic.datasource.ZhiyeDAO">
+    <insert id="saveZhiye" parameterType="com.dynamic.datasource.ZhiyeVo">
+        INSERT INTO `zhiye`.`simple_work_info`
+        (`thirdName`,`url`,`thirdNo`, `moneyRange`,`moneyHigh`,`moneyLow`,`address`,`zhiwei`,
+        `workYears`,`xueli`,`companyName`,`companySize`,`companyDetail`,`workTime`,`spiderTime`,
+        `order`,`fuli`,`companyNo`)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            ( #{item.thirdName},#{item.url},#{item.thirdNo},#{item.moneyRange},#{item.moneyHigh},
+            #{item.moneyLow},#{item.address},#{item.zhiwei},#{item.workYears},#{item.xueli},
+            #{item.companyName},#{item.companySize},#{item.companyDetail},#{item.workTime},
+            #{item.spiderTime},#{item.order},#{item.fuli},#{item.companyNo})
+        </foreach>
+    </insert>
+</mapper>

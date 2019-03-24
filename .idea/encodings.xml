@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dynamic-datasource-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-hsf-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-hsf-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-vip-client" charset="UTF-8" />

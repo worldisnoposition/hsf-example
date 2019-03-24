@@ -7,9 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54da619e-dcf3-4cee-9652-497e69542147" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/dynamicdatasourcemybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/C3P0DataSourceHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/HSFProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/JDBCDataSourceHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/ZhiyeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/dynamic/EntryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hsf-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-hsf-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-hsf-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/HSFConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/HSFConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/repository/OrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/testrest/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/testrest/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hsf-example-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +36,7 @@
     <ignored path="$PROJECT_DIR$/sc-vip-server/target/" />
     <ignored path="$PROJECT_DIR$/sc-hsf-consumer/target/" />
     <ignored path="$PROJECT_DIR$/sc-hsf-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dynamic-datasource-mybatis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,50 +52,53 @@
     <session id="-1639345002">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="24" />
-          <entry key="java" value="45" />
+          <entry key="class" value="28" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="55" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="7" />
+          <entry key="properties" value="6" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="24" />
-          <entry key="JAVA" value="45" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="8" />
+          <entry key="CLASS" value="28" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="55" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="1057" />
+          <entry key="java" value="1525" />
           <entry key="properties" value="49" />
           <entry key="txt" value="34" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1057" />
+          <entry key="JAVA" value="1525" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="49" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
     </session>
@@ -83,10 +106,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/testrest/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/C3P0DataSourceHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+            <state relative-caret-position="285">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,70 +118,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/sharding/DataSourceConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/sharding/ModuleDatabaseShardingAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.3.0/sharding-jdbc-core-1.3.0.jar!/com/dangdang/ddframe/rdb/sharding/router/strategy/ShardingStrategy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.3.0/sharding-jdbc-core-1.3.0.jar!/com/dangdang/ddframe/rdb/sharding/router/single/SingleTableRouter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/sharding/ModuleTableShardingAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-928">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="479">
+              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/repository/OrderRepository.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="188">
+              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/dynamic/EntryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,10 +148,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/entity/OrderEntity.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="88">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/SimpleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/JDBCDataSourceHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,10 +178,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.8.RELEASE/spring-data-commons-1.13.8.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/ZhiyeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="174">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -192,8 +209,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -203,6 +220,7 @@
       <find>18082</find>
       <find>da</find>
       <find>org.springframework.data</find>
+      <find>MYSQL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,6 +256,17 @@
         <option value="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/sharding/ModuleDatabaseShardingAlgorithm.java" />
         <option value="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/testrest/OrderController.java" />
         <option value="$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/repository/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/SimpleController.java" />
+        <option value="$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/HSFConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/JDBCDataSourceHome.java" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/UserMapper.java" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeVo.java" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/ZhiyeMapper.xml" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeDAO.java" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/dynamic/EntryController.java" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/C3P0DataSourceHome.java" />
       </list>
     </option>
   </component>
@@ -259,6 +288,7 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="F:/apache/apache-maven-3.5.0" />
         <option name="userSettingsFile" value="H:\data\hsf-example\settings.xml" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -267,6 +297,9 @@
       <expand />
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -281,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,25 +325,68 @@
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-datasource-mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-datasource-mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-datasource-mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-datasource-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-datasource-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-datasource-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -319,70 +394,26 @@
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edas" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edas" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edas" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edas" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="sharding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edas" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="testrest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
-              <item name="sc-hsf-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edas" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hsf-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sc-hsf-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -394,113 +425,118 @@
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:sharding-jdbc-core:1.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:sharding-jdbc-core:1.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="sharding-jdbc-core-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:sharding-jdbc-core:1.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="sharding-jdbc-core-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sharding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:sharding-jdbc-core:1.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="sharding-jdbc-core-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sharding" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:sharding-jdbc-core:1.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="sharding-jdbc-core-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sharding" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:sharding-jdbc-core:1.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="sharding-jdbc-core-1.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sharding" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-1.13.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-1.13.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-1.13.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hsf-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hsf-example" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sc-hsf-consumer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,14 +548,22 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553097442317" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-hsf-provider" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553436428557" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="F:/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.49310344" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dynamic.datasource" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\data\hsf-example\dynamic-datasource-mybatis\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -533,7 +577,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HSFProviderApplication">
+  <component name="RunManager" selected="Spring Boot.HSFConsumerApplication">
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -695,8 +739,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HSFProviderApplication" />
         <item itemvalue="Spring Boot.HSFConsumerApplication" />
+        <item itemvalue="Spring Boot.HSFProviderApplication" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="Spring Boot.ServerApplication" />
       </list>
@@ -720,6 +764,8 @@
       <workItem from="1553006798762" duration="3328000" />
       <workItem from="1553010518292" duration="580000" />
       <workItem from="1553093974010" duration="3285000" />
+      <workItem from="1553435353653" duration="784000" />
+      <workItem from="1553436634458" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1543940281070</created>
@@ -746,24 +792,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25632000" />
+    <option name="totallyTimeSpent" value="29185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17426273" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5020107" side_tool="true" weight="0.43612334" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932975" weight="0.45014662" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932975" weight="0.4493392" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.2760646" />
@@ -777,7 +822,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.4989858" weight="0.15951742" />
+      <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.4989858" visible="true" weight="0.1461126" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -882,164 +927,28 @@
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/dynamic/EntryController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/C3P0DataSourceHome.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/C3P0DataSourceHome.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sc-vip-client/src/main/java/com/aliware/edas/EchoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/EchoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/SimpleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/async/AsyncEchoResponseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/async/AsyncEchoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/async/TestAsyncController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/HsfConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/EchoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/EchoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/HSFConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/HSFProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Range.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.12/druid-1.0.12.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.3.0/sharding-jdbc-core-1.3.0.jar!/com/dangdang/ddframe/rdb/sharding/api/ShardingDataSourceFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/DBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/entity/SimpleWorkInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="17" selection-start-line="28" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3016">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.8.RELEASE/spring-data-commons-1.13.8.RELEASE.jar!/org/springframework/data/repository/core/support/SurroundingTransactionDetectorMethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.3.0/sharding-jdbc-core-1.3.0.jar!/com/dangdang/ddframe/rdb/sharding/router/strategy/SingleKeyShardingAlgorithm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.3.0/sharding-jdbc-core-1.3.0.jar!/com/dangdang/ddframe/rdb/sharding/api/strategy/database/SingleKeyDatabaseShardingAlgorithm.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1084,15 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="16">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1138,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.3.0/sharding-jdbc-core-1.3.0.jar!/com/dangdang/ddframe/rdb/sharding/router/SQLRouteEngine.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1177,9 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1240,11 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/jpa/entity/OrderEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="58">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1252,9 +1141,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/async/AsyncEchoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-provider/src/main/java/com/aliware/edas/async/AsyncEchoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/dynamicdatasourcemybatis.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/EchoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6989">
+          <caret line="296" column="20" selection-start-line="296" selection-start-column="20" selection-end-line="296" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/HSFProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/HSFConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/SimpleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/JDBCDataSourceHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/ZhiyeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/ZhiyeVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-hsf-consumer/src/main/java/com/aliware/edas/dynamic/EntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/src/main/java/com/dynamic/datasource/C3P0DataSourceHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-datasource-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1363,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sc-hsf-provider</last-edited>
+          <last-edited>dynamic-datasource-mybatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1337,7 +1388,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
